@@ -9,7 +9,8 @@ jobs:
 
     defaults:
       run:
-        working-directory: builder/android_template
+        working-directory: android
+
 
     steps:
       - name: Checkout
